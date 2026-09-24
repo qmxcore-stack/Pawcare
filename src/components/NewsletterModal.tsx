@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, type FormEvent } from 'react';
 import { X, Mail } from 'lucide-react';
 
 export default function NewsletterModal() {
@@ -23,7 +23,7 @@ export default function NewsletterModal() {
     sessionStorage.setItem('hasSeenNewsletter', 'true');
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     setIsSubmitted(true);
     setTimeout(() => {

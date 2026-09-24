@@ -1,6 +1,6 @@
 {
   "name": "PawCare Landing Page",
-  "description": "Landing page for PawCare Cat Ringworm Treatment Spray",
+  "description": "Professional cat care and grooming services. Quality care, gentle treatment and a comfortable experience for your beloved cats.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
